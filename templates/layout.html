@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Sahil Kirpekar Website</title>
+        <!-- tt commons font cdn  -->
+        <link href="http://fonts.cdnfonts.com/css/tt-commons" rel="stylesheet">
+        <!-- link to CSS -->
+        <link href="{{url_for('static', filename='main.css')}}" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body {
+                font-family: 'TT Commons', sans-serif;
+                color: white;
+            }
+        </style>
+    </head>
+    <body class="bg-dark">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-sm bg-dark float-end display-6">
+            <div class="container-fluid">
+                <ul class="navbar-nav m-2">
+                    <li class="nav-item mr-auto">
+                        <a class="nav-link mb-3" href="#"><img alt="SK" src="{{url_for('static', filename='weblogo.png')}}" width="53x" height="53px"></a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item pe-4">
+                        <a class="nav-link text-light" href="{{url_for('home')}}">HOME</a>
+                    </li>
+                    
+                    <li class="nav-item pe-4">
+                        <a class="nav-link text-light" href="{{url_for('about')}}">ABOUT</a>
+                    </li>
+                    
+                    <li class="nav-item pe-4">
+                        <a class="nav-link text-light" href="{{url_for('education')}}">EDUCATION</a>
+                    </li>
+                    
+                    <li class="nav-item pe-4">
+                        <a class="nav-link text-light" href="{{url_for('portfolio')}}">PORTFOLIO</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="{{url_for('contact')}}">CONTACT</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
